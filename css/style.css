@@ -1,5 +1,4 @@
 * {
-    
     padding: 0;
     box-sizing: border-box;
 }
@@ -14,6 +13,15 @@ header{
     width: 80% ;
     margin:auto;
     margin-bottom: 20px;
+}
+.intestazione img{
+    height: 60%;
+}
+
+.menu{
+    list-style: none;
+    display: inline-block;
+    
 }
 /* Blocco pagina */
 .primo-container{
