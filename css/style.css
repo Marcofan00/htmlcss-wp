@@ -1,11 +1,8 @@
 * {
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-}
-
-body{
-    padding: 10px;
 }
 /* Intestazione */
 header{
@@ -14,9 +11,23 @@ header{
     margin:auto;
     margin-bottom: 20px;
 }
-.intestazione img{
-    height: 60%;
+
+.border10{
+    border-radius: 10px;
 }
+/* logo pagina */
+#logo{
+    margin-bottom: 20px;
+    height: 60%;
+    border-right: 1px solid lightslategray;
+    display: inline-block;
+}
+
+#logo img{
+    height: 100%;
+    margin-right: 10px;
+}
+/* menu */
 li{
     display: inline-block;
     
@@ -39,25 +50,23 @@ a{
     margin-bottom: 20px;
     background-image: url(../img5/banner.jpg);
     background-position: center;
-    border-radius: 10px;
 
 }
 .background{
     height: 500px;
     width: 100%;
     background-color:rgba(77, 38, 20, 0.486);
-    border-radius: 10px;
     padding-top: 270px;
     padding-right: 30%;
 }
-
+/* primo paragrafo */
 #primo-para{
     color: white;
     font-size: 30px;
     margin:auto;
     margin-left: 30px;
 }
-
+/* secondo paragrafo */
 #sec-para{
     color: white;
     margin-left: 30px;
@@ -68,8 +77,8 @@ a{
 .secondo-container{
     width: 80%;
     margin: auto;
-    background-color: rgb(34, 102, 250);
 }
+/* titolo sec container */
 #titolo{
     margin: 0px;
 }
@@ -78,6 +87,7 @@ a{
     margin: 0px;
     color: lightslategray;
 }
+
 .clearfix::after {
     content: "";
     display: table;
@@ -88,49 +98,69 @@ a{
     width: 100%;
     height: 50px;
     margin-bottom: 20px;
-    background-color: rgba(198, 239, 245, 0.658);
 }
 
-/* Item widget */
+/* Paragrafo sinistra */
 #left {
     float: left;
     width: 18%;
     height: 600px;
-    background-color: rgba(198, 239, 245, 0.658);
     margin-bottom: 18px;
-    background-image: url(../img5/img-1.jpg);
 }
-#left img{
-    width: 200x;
+/* immagine sinistra */
+#left-image{
     height: 200px;
+    width: 100%;
+    background-image: url(../img5/img-1.jpg);
+    background-position: center;
+    background-size: cover;
 }
-
+/* sfondo */
+.grey{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(151, 149, 148, 0.486 );
+}
+/* paragrafo centrale */
 #center {
     float: left;
     width: 60%;
     height: 600px;
-    background-color: rgba(198, 239, 245, 0.658);
     margin: 0 2%;
-    background-image: url(../img5/banner-2.jpg);
 }
-#banner2 img{
+/* Banner */
+#banner2{
     width: 100%;
+    height: 200px;
+    background-image: url(../img5/banner-2.jpg);
     background-position: center;
+    background-size: cover;
+} 
 
-}
-/* Item widget */
+/* paragrafo destra*/
 #right {
     float: right;
     width: 18%;
     height: 600px;
-    background-color: rgba(198, 239, 245, 0.658);
-
 }
+/* immagine destra */
+#right-image{
+    width: 100%;
+    height: 200px;
+    background-image: url(../img5/img-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
 /* Blocco finale */
 footer{
     height: 50px;
-    background-color: rgb(173, 40, 250);
     margin: auto;
     width: 80%;
-    margin-top: 10px;;
+    margin-top: 10px;
+    text-align: center;
+}
+/* hearts */
+#hearts{
+    color: red;
 }

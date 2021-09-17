@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,10 +11,13 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;600&display=swap" rel="stylesheet">
     <title>Struttura-wp</title>
 </head>
+<!-- Corpo principale pagina -->
 <body>
     <!-- Intestazione -->
     <header class="intestazione">
-        <img src="img5/logo.png" alt="logo">
+        <div id="logo">
+            <img src="img5/logo.png" alt="logo">
+        </div>
         <nav>
             <ul class="menu">
                 <li><a href="#">FEATURES</a></li>
@@ -27,47 +31,64 @@
     </header>
     <!-- blocca pagina -->
     <main>
-         <!-- Primo container -->
-            <div class="primo-container">
-                <div class="background">
-                    <h4 id="primo-para">Pretium ac placerat dui interdum nunc in eros urna morbi </h4>
-                    <p id="sec-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nisi, eveniet quos aliquam amet eius, architecto itaque reiciendis culpa eaque tempora doloremque illo quam similique accusantium. </p>
-                </div>
+        <!-- Primo container -->
+        <div class="primo-container border10">
+            <div class="background border10">
+                <h4 id="primo-para">Pretium ac placerat dui interdum nunc in eros urna morbi </h4>
+                <p id="sec-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nisi, eveniet quos
+                    aliquam amet eius, architecto itaque reiciendis culpa eaque tempora doloremque illo quam similique
+                    accusantium. </p>
             </div>
-            
+        </div>
         <!-- Secondo container -->
-            <div class="clearfix secondo-container">
-                
-                <div id="top">
-                    <h1 id="titolo">Leadership</h1>
-                    <p id="sottotit">Fertenum urna a libero tempus</p>
-
+        <div class="clearfix secondo-container">
+            <!-- Titolo 2 container -->
+            <div id="top">
+                <h1 id="titolo">Leadership</h1>
+                <p id="sottotit">Fertenum urna a libero tempus</p>
+            </div>
+            <!-- Paragrafo sinistra -->
+            <aside id="left">
+                <div class="border10" id="left-image">
+                    <div class="grey border10"></div>
                 </div>
-                <!-- Item widget -->
-                <aside id="left">
+                <div>
+                    <h4>Lorem</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, necessitatibus eius cupiditate
+                        soluta adipisci, pariatur error dolorum praesentium illo atque quis! Voluptas, pariatur dolorum
+                        dolores fugiat voluptate vero nisi! Cumque?</p>
+                </div>
+            </aside>
+                <!-- Paragrafo centrale -->
+                <div id="center">
+                    <div class="border10" id="banner2">
+                        <div class="grey border10">
+                        </div>
+                    </div>
                     <div>
-                        
+                        <h4>Ipsum</h4>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, necessitatibus eius cupiditate
+                            soluta adipisci, pariatur error dolorum praesentium illo atque quis! Voluptas, pariatur dolorum
+                            dolores fugiat voluptate vero nisi! Cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure cum possimus nostrum voluptatum incidunt amet? A corporis veniam quidem recusandae laborum! Animi quasi assumenda a error dignissimos architecto nobis nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, odit! Maxime nihil excepturi deserunt similique neque architecto repellendus praesentium nam nemo explicabo nulla, porro ipsam libero nostrum natus nobis dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti esse accusamus itaque maiores id autem laborum! Est ipsam corrupti, quia minima deserunt natus odio enim inventore iste voluptas perspiciatis pariatur? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum ducimus, assumenda modi molestias corporis aliquam neque rem quos libero officia inventore eius recusandae tenetur quidem delectus corrupti repellat nulla exercitationem!</p>
+                    </div>
+                </div>            
+                <!-- paragrafo destra -->
+                <aside id="right">
+                    <div class="border10" id="right-image">
+                        <div class="grey border10"></div>
                     </div>
                     <div>
                         <h4>Lorem</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, necessitatibus eius cupiditate soluta adipisci, pariatur error dolorum praesentium illo atque quis! Voluptas, pariatur dolorum dolores fugiat voluptate vero nisi! Cumque?</p>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, necessitatibus eius cupiditate
+                            soluta adipisci, pariatur error dolorum praesentium illo atque quis! Voluptas, pariatur dolorum
+                            dolores fugiat voluptate vero nisi! Cumque?</p>
                     </div>
                 </aside>
-                <div id="center">
-                    <div id="banner2">
-                        
-                    </div>
-                
-                </div>
-                <!-- Item widget -->
-                <aside id="right">
-
-                </aside>
-            </div>    
-    </main>   
+            </div>
+    </main>
 </body>
 <!-- blocco finale -->
 <footer>
-
+    <div id="footer">Designed with<span id="hearts">&hearts;</span></div>
 </footer>
 </html>
